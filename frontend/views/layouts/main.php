@@ -23,7 +23,7 @@ AppAsset::register($this);
                 <meta name="author" content="Ahmed Soliman">
                 <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
                 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-                <link rel="icon" href="<?= Url::to(['../frontend/web/images/favicon.ico'])?>" type="image/x-icon">
+                <link rel="icon" href="<?= Url::to(['../frontend/web/images/UNMS.svg'])?>" type="image/x-icon">
                 <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Poppins:300,400,500,600,700%7CLato%7CKalam:300,400,700">
                 <style>.ie-panel{display: none;background: #212121;padding: 10px 0;box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3);clear: both;text-align:center;position: relative;z-index: 1;} html.ie-10 .ie-panel, html.lt-ie-10 .ie-panel {display: block;}</style>
                 <?php $this->registerCsrfMetaTags() ?>
@@ -60,64 +60,6 @@ AppAsset::register($this);
                         <!-- RD Navbar-->
                         <div class="rd-navbar-wrap">
                             <nav class="rd-navbar rd-navbar-corporate" data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed" data-md-layout="rd-navbar-fixed" data-md-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-static" data-lg-device-layout="rd-navbar-fixed" data-xl-layout="rd-navbar-static" data-xl-device-layout="rd-navbar-static" data-xxl-layout="rd-navbar-static" data-xxl-device-layout="rd-navbar-static" data-lg-stick-up-offset="154px" data-xl-stick-up-offset="182px" data-xxl-stick-up-offset="214px" data-lg-stick-up="true" data-xl-stick-up="true" data-xxl-stick-up="true">
-                                <div class="rd-navbar-collapse-toggle rd-navbar-fixed-element-1" data-rd-navbar-toggle=".rd-navbar-collapse"><span></span></div><a class="rd-navbar-basket rd-navbar-basket-mobile fl-bigmug-line-shopping202 rd-navbar-fixed-element-2" href="cart-page.html"><span>2</span></a>
-                                <div class="rd-navbar-aside-outer">
-                                    <div class="rd-navbar-aside">
-                                        <p>Opening hours: Monday - Friday: 08AM-06PM</p>
-                                        <div>
-                                            <div class="group-xs group-middle">
-                                                <!--p.rd-navbar-basket-text Your Cart is Empty-->
-                                                <!-- RD Navbar Basket-->
-                                                <div class="rd-navbar-basket-wrap">
-                                                    <button class="rd-navbar-basket fl-bigmug-line-shopping202" data-rd-navbar-toggle=".cart-inline"><span>2</span></button>
-                                                    <div class="cart-inline">
-                                                        <div class="cart-inline-header">
-                                                            <h5 class="cart-inline-title">In cart:<span> 2</span> Products</h5>
-                                                            <h6 class="cart-inline-title">Total price:<span> $43</span></h6>
-                                                        </div>
-                                                        <div class="cart-inline-body">
-                                                            <div class="cart-inline-item">
-                                                                <div class="unit unit-spacing-sm align-items-center">
-                                                                    <div class="unit-left"><a class="cart-inline-figure" href="single-product.html"><img src="<?= Url::to(['../frontend/web/images/product-mini-6-100x90.png'])?>" alt="" width="100" height="90"/></a></div>
-                                                                    <div class="unit-body">
-                                                                        <h6 class="cart-inline-name"><a href="single-product.html">CrispSound Headphones</a></h6>
-                                                                        <div>
-                                                                            <div class="group-xs group-middle">
-                                                                                <div class="table-cart-stepper">
-                                                                                    <input class="form-input" type="number" data-zeros="true" value="1" min="1" max="1000"/>
-                                                                                </div>
-                                                                                <h6 class="cart-inline-title">$20.00</h6>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <div class="cart-inline-item">
-                                                                <div class="unit unit-spacing-sm align-items-center">
-                                                                    <div class="unit-left"><a class="cart-inline-figure" href="single-product.html"><img src="<?= Url::to(['../frontend/web/images/product-mini-7-100x90.png'])?>" alt="" width="100" height="90"/></a></div>
-                                                                    <div class="unit-body">
-                                                                        <h6 class="cart-inline-name"><a href="single-product.html">SmartPlusSound Headphones</a></h6>
-                                                                        <div>
-                                                                            <div class="group-xs group-middle">
-                                                                                <div class="table-cart-stepper">
-                                                                                    <input class="form-input" type="number" data-zeros="true" value="1" min="1" max="1000"/>
-                                                                                </div>
-                                                                                <h6 class="cart-inline-title">$23.00</h6>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="cart-inline-footer">
-                                                            <div class="group-sm"><a class="button button-default-outline-2 button-zakaria" href="cart-page.html">Go to cart</a><a class="button button-primary button-zakaria" href="checkout.html">Checkout</a></div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
                                 <div class="rd-navbar-main-outer">
                                     <div class="rd-navbar-main">
                                         <div class="rd-navbar-main-element">
@@ -127,7 +69,7 @@ AppAsset::register($this);
                                                 <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
                                                 <!-- RD Navbar Brand-->
                                                 <div class="rd-navbar-brand">
-                                                    <!--Brand--><a class="brand" href="index.html"><img class="brand-logo-dark" src="<?= Url::to(['../frontend/web/images/logo-default-1-242x53.png'])?>" alt="" width="242" height="53"/><img class="brand-logo-light" src="<?= Url::to(['../frontend/web/images/logo-inverse-1-242x53.png'])?>" alt="" width="242" height="53"/></a>
+                                                    <!--Brand--><a class="brand" href="index.html"><img class="brand-logo-dark" src="<?= Url::to(['../frontend/web/images/UNMS.png'])?>" alt="" width="100" height="100"/><img class="brand-logo-light" src="<?= Url::to(['../frontend/web/images/UNMS.png'])?>" alt="" width="100" height="100"/></a>
                                                 </div>
                                             </div>
                                             <div class="rd-navbar-collapse">

@@ -186,88 +186,83 @@ AppAsset::register($this);
                     </header>
                     <!-- Swiper-->
                     <?= $content ?>
-
-                <?php $this->endBody() ?>
-                </body>
-
-
-                <!-- Page Footer-->
-                <footer class="section footer-corporate footer-corporate-2">
-                    <div class="footer-corporate-body section-xxl">
-                        <div class="container">
-                            <div class="row row-40 row-md-50 justify-content-xl-between">
-                                <div class="col-sm-6 col-lg-4 wow fadeInRight">
-                                    <h5 class="footer-corporate-title">Visit our store</h5>
-                                    <div class="footer-corporate-decor"></div>
-                                    <ul class="footer-corporate-info">
-                                        <li>
-                                            <div class="unit flex-column flex-sm-row align-items-center">
-                                                <div class="unit-left"><span class="icon mdi mdi-map-marker"></span></div>
-                                                <div class="unit-body"><a href="#">523 Sylvan Ave, 5th Floor<br/>Mountain View, CA 94041 USA</a></div>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="unit flex-column flex-sm-row align-items-center">
-                                                <div class="unit-left"><span class="icon mdi mdi-clock"></span></div>
-                                                <div class="unit-body">
-                                                    <ul class="list-schedule">
-                                                        <li><span>Weekdays:</span><span>08:00am - 08:00pm</span></li>
-                                                        <li><span>Weekends:</span><span>10:00am - 06:00pm</span></li>
-                                                    </ul>
+                    <!-- Page Footer-->
+                    <footer class="section footer-corporate footer-corporate-2">
+                        <div class="footer-corporate-body section-xxl">
+                            <div class="container">
+                                <div class="row row-40 row-md-50 justify-content-xl-between">
+                                    <div class="col-sm-6 col-lg-4 wow fadeInRight">
+                                        <h5 class="footer-corporate-title">Visit our store</h5>
+                                        <div class="footer-corporate-decor"></div>
+                                        <ul class="footer-corporate-info">
+                                            <li>
+                                                <div class="unit flex-column flex-sm-row align-items-center">
+                                                    <div class="unit-left"><span class="icon mdi mdi-map-marker"></span></div>
+                                                    <div class="unit-body"><a href="#">523 Sylvan Ave, 5th Floor<br/>Mountain View, CA 94041 USA</a></div>
                                                 </div>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="col-sm-6 col-lg-4 wow fadeInRight" data-wow-delay=".1s">
-                                    <h5 class="footer-corporate-title">Quick links</h5>
-                                    <div class="footer-corporate-decor"></div>
-                                    <ul class="footer-corporate-list d-sm-inline-block d-md-block">
-                                        <li><a href="#">Smart Watches</a></li>
-                                        <li><a href="#">Smartphones</a></li>
-                                        <li><a href="#">Laptops</a></li>
-                                        <li><a href="#">Smart Toys</a></li>
-                                        <li><a href="#">Smart Home</a></li>
-                                        <li><a href="#">Accessories</a></li>
-                                        <li><a href="#">Portable Speakers</a></li>
-                                        <li><a href="#">Headphones</a></li>
-                                    </ul>
-                                </div>
-                                <div class="col-lg-4 wow fadeInRight" data-wow-delay=".2s">
-                                    <h5 class="footer-corporate-title">Get in touch</h5>
-                                    <div class="footer-corporate-decor"></div>
-                                    <p class="footer-corporate-text">We are always ready to answer any questions you may have about any of our products.</p>
-                                    <div class="group-sm group-middle"><a class="button button-white button-shadow-2 button-zakaria" href="tel:#">Call us</a><a class="button button-primary-2 button-zakaria" href="contact-us.html">Contact us</a></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="footer-corporate-panel context-dark">
-                        <div class="container">
-                            <div class="row row-10 row-sm-30 align-items-center justify-content-sm-between">
-                                <div class="col-sm-auto col-xl-4 text-lg-left">
-                                    <div class="group-xs group-middle"><img src="<?= Url::to(['../frontend/web/images/payment-1-45x15.png'])?>" alt="" width="45" height="15"/><img src="<?= Url::to(['../frontend/web/images/payment-2-46x28.png'])?>" alt="" width="46" height="28"/><img src="<?= Url::to(['../frontend/web/images/payment-3-62x17.png'])?>" alt="" width="62" height="17"/>
+                                            </li>
+                                            <li>
+                                                <div class="unit flex-column flex-sm-row align-items-center">
+                                                    <div class="unit-left"><span class="icon mdi mdi-clock"></span></div>
+                                                    <div class="unit-body">
+                                                        <ul class="list-schedule">
+                                                            <li><span>Weekdays:</span><span>08:00am - 08:00pm</span></li>
+                                                            <li><span>Weekends:</span><span>10:00am - 06:00pm</span></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+<!--                                    <div class="col-sm-6 col-lg-4 wow fadeInRight" data-wow-delay=".1s">-->
+<!--                                        <h5 class="footer-corporate-title">Quick links</h5>-->
+<!--                                        <div class="footer-corporate-decor"></div>-->
+<!--                                        <ul class="footer-corporate-list d-sm-inline-block d-md-block">-->
+<!--                                            <li><a href="#">Smart Watches</a></li>-->
+<!--                                            <li><a href="#">Smartphones</a></li>-->
+<!--                                            <li><a href="#">Laptops</a></li>-->
+<!--                                            <li><a href="#">Smart Toys</a></li>-->
+<!--                                            <li><a href="#">Smart Home</a></li>-->
+<!--                                            <li><a href="#">Accessories</a></li>-->
+<!--                                            <li><a href="#">Portable Speakers</a></li>-->
+<!--                                            <li><a href="#">Headphones</a></li>-->
+<!--                                        </ul>-->
+<!--                                    </div>-->
+                                    <div class="col-lg-4 wow fadeInRight" data-wow-delay=".2s">
+                                        <h5 class="footer-corporate-title">Get in touch</h5>
+                                        <div class="footer-corporate-decor"></div>
+                                        <p class="footer-corporate-text">We are always ready to answer any questions you may have about any of our products.</p>
+                                        <div class="group-sm group-middle"><a class="button button-white button-shadow-2 button-zakaria" href="tel:#">Call us</a><a class="button button-primary-2 button-zakaria" href="contact-us.html">Contact us</a></div>
                                     </div>
                                 </div>
-                                <div class="col-sm-auto col-xl-3">
-                                    <ul class="list-inline list-social-4 list-inline-xs">
-                                        <li><a class="icon mdi mdi-facebook icon-xxs" href="#"></a></li>
-                                        <li><a class="icon mdi mdi-twitter icon-xxs" href="#"></a></li>
-                                        <li><a class="icon mdi mdi-instagram icon-xxs" href="#"></a></li>
-                                        <li><a class="icon mdi mdi-google-plus icon-xxs" href="#"></a></li>
-                                        <li><a class="icon mdi mdi-skype icon-xxs" href="#"></a></li>
-                                    </ul>
-                                </div>
-                                <div class="col-xl-5 text-xl-right">
-                                    <p class="rights"><span>&copy;&nbsp; </span><span class="copyright-year"></span><span>&nbsp;</span><span>Techzoid</span><span>.&nbsp; All rights reserved.</span><span>&nbsp;</span><a href="terms-of-use.html">Privacy Policy</a><span>.</span></p>
+                            </div>
+                        </div>
+                        <div class="footer-corporate-panel context-dark">
+                            <div class="container">
+                                <div class="row row-10 row-sm-30 align-items-center justify-content-sm-between">
+                                    <div class="col-sm-auto col-xl-4 text-lg-left">
+                                        <div class="group-xs group-middle"><img src="<?= Url::to(['../frontend/web/images/payment-1-45x15.png'])?>" alt="" width="45" height="15"/><img src="<?= Url::to(['../frontend/web/images/payment-2-46x28.png'])?>" alt="" width="46" height="28"/><img src="<?= Url::to(['../frontend/web/images/payment-3-62x17.png'])?>" alt="" width="62" height="17"/>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-auto col-xl-3">
+                                        <ul class="list-inline list-social-4 list-inline-xs">
+                                            <li><a class="icon mdi mdi-facebook icon-xxs" href="#"></a></li>
+                                            <li><a class="icon mdi mdi-twitter icon-xxs" href="#"></a></li>
+                                            <li><a class="icon mdi mdi-instagram icon-xxs" href="#"></a></li>
+                                            <li><a class="icon mdi mdi-google-plus icon-xxs" href="#"></a></li>
+                                            <li><a class="icon mdi mdi-skype icon-xxs" href="#"></a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-xl-5 text-xl-right">
+                                        <p class="rights"><span>&copy;&nbsp; </span><span class="copyright-year"></span><span>&nbsp;</span><span>Techzoid</span><span>.&nbsp; All rights reserved.</span><span>&nbsp;</span><a href="terms-of-use.html">Privacy Policy</a><span>.</span></p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </footer>
+                    </footer>
                 </div>
                 <div class="snackbars" id="form-output-global"></div>
-            <?php $this->endBody() ?>
             </body>
+            <?php $this->endBody() ?>
         </html>
 <?php $this->endPage();
